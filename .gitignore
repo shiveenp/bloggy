@@ -1,0 +1,9 @@
+# node modules
+node_modules
+
+# eleventy output
+_site
+
+# Jetbrains
+.idea
+
