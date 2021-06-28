@@ -3,7 +3,7 @@ title: Equality Checks in Kotlin With Unstructured Data
 date: 2021-06-17T21:03:44+10:00
 ---
 
-This is a small blog post on equality checks in Kotlin when one of the objects can contain arbitrary date.
+This is a small blog post on equality checks in Kotlin when one of the objects may contain arbitrary data.
 
 Let's say you have an object that looks like:
 
