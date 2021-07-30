@@ -11,7 +11,7 @@ Let's say you have an object that looks like:
 
 where `someData` is any json map of data that could contain any untyped data at runtime.
 
-Now if you have two instances of this object and try to compare the two using the regular equals method, you would get a false result.
+Now, if you have two instances of this object with the same data and try to compare the two using the regular equals method, you would get a false result.
 
 > `arbData1 == arbData2` results in false.
 
