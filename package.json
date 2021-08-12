@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-blog-mnml",
+  "name": "shiveenp-blog",
   "version": "1.0.0",
-  "description": "A Blog Template using eleventy and terminal css.",
+  "description": "My blog",
   "type": "module",
   "scripts": {
     "build": "eleventy && npm run sass",
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Arpit Batra (arpitbatra123@gmail.com)",
+  "author": "Shiveen Pandita",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
-    "@manustays/eleventy-plugin-generate-social-images": "^4.1.0"
+    "@manustays/eleventy-plugin-generate-social-images": "^4.1.0",
+    "sharp": "^0.28.3"
   }
 }
