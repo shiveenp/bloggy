@@ -21,6 +21,7 @@
     "node-sass": "^5.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+    "@manustays/eleventy-plugin-generate-social-images": "^4.1.0"
   }
 }
