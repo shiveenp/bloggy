@@ -42,12 +42,10 @@
             {% for image in gallery %}
                 <li class="gallery-item">
                     <div class="image-block">
-                        <a href="{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
-                            {% image image.src, image.alt , "(min-width: 30em) 50vw, 100vw" %}
-                        </a>
+                        {% image image.src, image.alt, "(min-width: 30em) 50vw, 100vw" %}
                         <div class="block-details">
                             <p>{{ image.date }}</p>
-                            <h2><a href="/gallery/{{ image.title | slug }}">{{ image.title }}</a></h2>
+                            <h2>{{ image.title }}</h2>
                         </div>
                     </div>
                 </li>
