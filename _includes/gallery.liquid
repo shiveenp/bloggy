@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="Description" content="{{ title }}"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="../../styles/gallery.css"/>
+</head>
+<header class="container header">
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="/" title="home">
+                    <span>home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/gallery" title="photos">
+                    <span>photos</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/about" title="about">
+                    <span>about</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/uses" title="uses">
+                    <span>uses</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+<main class="main-gallery">
+    {{ content }}
+    <div class="gallery">
+        <ul class="gallery-list">
+            {% for image in gallery %}
+                <li class="gallery-item">
+                    <div class="image-block">
+                        <a href="{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
+                            {% image image.src, image.alt , "(min-width: 30em) 50vw, 100vw" %}
+                        </a>
+                        <div class="block-details">
+                            <p>{{ image.date }}</p>
+                            <h2><a href="/gallery/{{ image.title | slug }}">{{ image.title }}</a></h2>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Sunset over Glebe Foreshore, Sydney",
+    "date": "August 10, 2021",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2021_sunset_glebe_foreshore_sydney.jpg",
+    "alt": "Sunset over Glebe foreshore with beautiful yellow tinge in the sky",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Boardwalk to a Cruise in Milford Sound, New Zealand",
+    "date": "June 8, 2021",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2021_boardwalk_milford_sound_new_zealand.jpg",
+    "alt": "Boardwalk to a cruise waiting in Milford Sound with Overhanging clouds and moody weather",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Yokohoma Port, Japan",
+    "date": "April 19, 2019",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2019_yokohoma_port_japan.jpg",
+    "alt": "Yokohoma port in Japan",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Unknown Town, Japan",
+    "date": "April 23, 2019",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2019_unknown_town_japan.jpg",
+    "alt": "Lake with mountains behind at an unknown shinkansen way stop in Japan",
+    "imgDir": "/images/"
+  },
+
+  {
+    "title": "Harbour with Cotton Candy Skies and Oprah House, Sydney",
+    "date": "May 23, 2019",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2019_cotton_candy_skies_harbour_sydney.jpg",
+    "alt": "Sydney harbour with cotton candy skies and Oprah house in distance",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Malabar beach, Sydney",
+    "date": "May 12, 2018",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2018_cloudy_malabar_beach_sydney.jpg",
+    "alt": "Malabar beach in Sydney with watercolour skies",
+    "imgDir": "/images/"
+  }
+]
