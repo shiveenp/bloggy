@@ -35,15 +35,15 @@
     </nav>
 </header>
 <body>
-<main class="main-gallery">
+<main>
     {{ content }}
-    <div class="gallery">
+    <div>
         <ul class="gallery-list">
             {% for image in gallery %}
-                <li class="gallery-item">
-                    <div class="image-block">
+                <li>
+                    <div>
                         {% image image.src, image.alt, "(min-width: 30em) 50vw, 100vw" %}
-                        <div class="block-details">
+                        <div>
                             <p>{{ image.date }}</p>
                             <h2>{{ image.title }}</h2>
                         </div>
