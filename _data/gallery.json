@@ -1,5 +1,13 @@
 [
   {
+    "title": "Wattle Bay Harbour, Sydney",
+    "date": "September 9, 2021",
+    "credit": "Photo by Shiveen Pandita",
+    "src": "./images/2021_wattle_bay_harbour_sydney.jpg",
+    "alt": "Wattle bay harbour with two boats under a cotton candy sky",
+    "imgDir": "/images/"
+  },
+  {
     "title": "Sunset over Glebe Foreshore, Sydney",
     "date": "August 10, 2021",
     "credit": "Photo by Shiveen Pandita",
