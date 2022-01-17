@@ -7,6 +7,6 @@ layout: blogpost.liquid
 
 I blog about software and life in general. This website is a personal record of some TILs, nano product experiments with some life commentary mixed in.
 
-When I'm not working behind a computer, I love going on bouldering, cooking and taking pictures. 
+When I'm not working behind a computer, I love bouldering, badminton, cooking and taking pictures. 
 
 If you're a recruiter, my professional resume is [here](https://read.cv/shiveenp) with a longer read [here](/resume).
