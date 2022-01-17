@@ -9,4 +9,4 @@ I blog about software and life in general. This website is a personal record of 
 
 When I'm not working behind a computer, I love going on bouldering, cooking and taking pictures. 
 
-If you're a recruiter, my professional resume is [here](/resume) with a nicer, slightly abridged version [here](/resume).
+If you're a recruiter, my professional resume is [here](https://read.cv/shiveenp) with a longer read [here](/resume).
