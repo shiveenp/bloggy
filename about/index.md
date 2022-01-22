@@ -1,6 +1,6 @@
 ---
 title: About
-layout: blogpost.liquid
+layout: about.liquid
 ---
 
 👋🏽 Hey, I'm [@Shiveen](https://twitter.com/shiveen_p), and welcome to my blog. I'm a polyglot cross-stack developer based in Melbourne. 
