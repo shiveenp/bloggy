@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <meta name="Description" content="{{ title }}"/>
-    <script defer data-domain="shiveenp.com"
-            src="https://plausible.apps.shiveenp-selfhosted.com/js/plausible.js"></script>
-    <script defer src="https://commento.apps.shiveenp-selfhosted.com/js/commento.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="{{ title }}" />
+    <script defer data-domain="shiveenp.com" src="https://plausible.apps.shiveenp-selfhosted.com/js/plausible.js"></script>
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="../../styles/blogpost.css"/>
-</head>
-<header class="container header">
+    <link rel="stylesheet" href="../../styles/blogpost.css" />
+  </head>
+  <header class="container header">
     <nav>
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="/" title="home">
-                    <span>home</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/gallery" title="photos">
-                    <span>photos</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/about" title="about">
-                    <span>about</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/uses" title="uses">
-                    <span>uses</span>
-                </a>
-            </li>
-        </ul>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/" title="home">
+            <span>home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/gallery" title="photos">
+            <span>photos</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/about" title="about">
+            <span>about</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/uses" title="uses">
+            <span>uses</span>
+          </a>
+        </li>
+      </ul>
     </nav>
-</header>
-<body>
-<div class="container post-container">
-    <h1>{{ title }}</h1>
-    <div class="content">{{ content }}</div>
-    <div class="back-link">
+  </header>
+  <body>
+    <div class="container post-container">
+      <h1>{{ title }}</h1>
+      <div class="content">{{ content }}</div>
+      <div class="back-link">
         <a href="/">← Back</a>
+      </div>
     </div>
-</div>
-</body>
-<footer>
-    <div id="commento"></div>
-</footer>
+  </body>
 </html>
