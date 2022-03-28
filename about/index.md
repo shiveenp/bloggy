@@ -3,7 +3,7 @@ title: About
 layout: about.liquid
 ---
 
-👋🏽 Hey, I'm [@Shiveen](https://twitter.com/shiveen_p), and welcome to my blog. I'm a polyglot cross-stack developer based in Melbourne. 
+👋🏽 Hey, I'm [@Shiveen](https://twitter.com/shiveen_p), and welcome to my blog. I'm a polyglot cross-stack developer based in [Melbourne](https://www.melbourne.vic.gov.au/Pages/home.aspx). 
 
 I blog about software and life in general. This website is a personal record of some TILs, nano product experiments with some life commentary mixed in.
 
