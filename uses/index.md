@@ -22,7 +22,7 @@ layout: blogpost.liquid
 
 - [1Password](https://1password.com/) for managing my logins and passwords
 - Apple Notes for general note-taking and [iAWriter](https://ia.net/writer) for the times I need to focus on writing technical docs or blogs
-- [Notion](https://www.notion.so/) as my external brain as well as where I manage all my personal and work project backlog
+- [Craft](https://www.craft.do/) as my external brain as well one time notes
 - [Todoist](https://todoist.com) is my main GTD tool, and I find it has the perfect balance of extensibility and visibility
 - [Alfred](https://www.alfredapp.com/) as spotlight replacement and handy clipboard but it does so much more I haven't yet explored it enough
 - [Pixelmator Pro](https://www.pixelmator.com/pro/) for light editing of photos
